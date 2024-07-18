@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-button {
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+#top-button > a {
+    height: 100%;
+    padding: 10% 0%;
+   text-decoration: none;
+   color: white;
+}
+
+#top-button:hover {
+    background-color: #44557D;
+}
+
+.intro {
+    width: 100%;
+    background-image: linear-gradient(to right, #36373A, #1B1A1C);
+    padding: 40% 0%;
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-footer {
+    text-align: center;
+    margin: 0;
+    padding: 10% 0;
+    background-color: #303841;
+    color: white;
+}
+
+.card-footer > span {
+    opacity: 0%;
+    color: #FF7F4F;
+}
+
+.card-footer:hover > span {
+    opacity: 100%;
+}
+
+.show {
+    padding: 5%;
+    text-align: center; 
+    color: #303841;  
+}
+
+.btn {
+    color:white;
+    background-color: #36373A;
+    margin-bottom: 10%;
+}
+
+.btn:hover {
+    background-color: #BE3142;
+}
+
+.work {
+    background-color: #36373A;
+    color: white;
+    margin-top: -3%;
+}
+
+.socmed {
+    transition: all .3s ease-in-out;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+
+.socmed:hover {
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
